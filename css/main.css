@@ -1,0 +1,174 @@
+body {
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,noto sans,liberation sans,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;
+    font-size: 1rem;
+    font-weight: 400 !important;
+    line-height: 1.5;
+    color: #2E3440;
+    text-align: left;
+    background-color: #3B4252;
+}
+
+.wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    font-weight: bold;
+    font-weight: 300;
+}
+
+.wrapper > * {
+    padding: 10px;
+    flex: 1 100%;
+}
+
+.header {
+    background: #2E3440;
+    color: #D8DEE9;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+}
+
+.header-hax {
+    background: #434C5E;
+    color: #D8DEE9;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    z-index: 10000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.aside {
+    text-align: left;
+    background: #E5E9F0;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+}
+
+.main {
+    text-align: left;
+    background: #ECEFF4;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+}
+
+.footer {
+    background: #88C0D0;
+}
+
+@media all and (max-width: 599px) {
+    .aside   { flex: 1 0 0; }
+    .aside   { order: 1; } 
+    .main    { order: 2; }
+    .footer  { order: 3; }
+}
+
+@media all and (min-width: 600px) {
+    .aside { flex: 1 0 0; }
+    .aside   { order: 1; } 
+    .main    { order: 2; }
+    .footer  { order: 3; }
+}
+
+@media all and (min-width: 992px) {
+    .main    { flex: 3 0px; }
+    .aside   { order: 1; } 
+    .main    { order: 2; }
+    .footer  { order: 3; }
+}
+
+h1 {
+    font-size: 1.4em;
+    font-weight: 600;
+    margin: 28px 0 12px 0;
+    line-height: 1.4rem;
+}
+
+h2 {
+    font-size: 1.2em;
+    font-weight: 500;
+    margin: 28px 0 12px 0;
+    line-height: 1.4rem;
+    color: #3B4252;
+}
+
+hr {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+#my-info {
+    text-align: center;
+}
+
+span.name {
+    font-size: 1.5em;
+    font-weight: 300;
+}
+
+span.hax {
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+span.uri {
+    font-size: 1.5em;
+    font-weight: 200;
+    float:right
+}
+
+a {
+    color: #5E81AC;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+a:hover {
+    color: #8FBCBB;
+    text-decoration: none;
+    font-weight: 510;
+}
+
+#profilepic {
+    width: 200px !important;
+    border: 1px solid #4C566A;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+}
+
+.fw200 {
+    font-weight: 200;
+}
+
+.fw300 {
+    font-weight: 300;
+}
+
+.fw400 {
+    font-weight: 400;
+}
+
+.fw500 {
+    font-weight: 500;
+}
+
+.cv {
+    font-weight: 550;
+    margin: 0.5em;
+}
+
+.flex-item {
+    text-align: center;
+}
+
+.flexrow {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.paper {
+    padding-left: 0.5em;
+    padding-bottom: 0.75em;
+}

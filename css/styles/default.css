@@ -1,0 +1,60 @@
+ul#navigation li.external:hover .fa, ul#navigation li.currentmenu .fa{
+	color: #1485CC;
+}
+.ul-boxed li {
+	border-left-color:#1485CC;
+}
+ul.ul-card li .dy .year {
+	background-color: #1485CC;
+	padding-top: 9px;
+	padding-bottom: 8px;
+	font-size: 14px;
+}
+ul.ul-dates div.dates span {
+	background-color: #1485CC;
+}
+ul.timeline li .date {
+	background: #1485CC;
+}
+ul.timeline li .data {
+	border-left-color: #1485CC;
+}
+.ul-withdetails li .imageoverlay {
+	background: #1485CC;
+}
+.cd-active.cd-dropdown > span {
+	color: #1485CC;
+}
+.cd-active.cd-dropdown ul li span:hover {
+	background: #1485CC;
+}
+.pitems .pubmain .pubassets {
+	border-top-color:#1485CC;
+}
+.pitems .pubmain .pubassets a:hover,.pitems .pubmain .pubassets a:focus,.pitems .pubmain .pubassets a.pubcollapse {
+	background: #1485CC;
+}
+.contact-office .icon-huge, .contact-lab .icon-huge {
+	color: #1485CC;
+}
+
+/* socpndary color
+**************************************************/
+ul.ul-card li .dy .degree {
+	background-color: #0971B2;
+}
+ul.ul-dates div.dates span:last-child {
+	background-color: #0971B2;
+}
+ul.timeline li.open .circle {
+	background-color: #0971B2;
+}
+ul.timeline li.open .data {
+	border-color: #0971B2;
+}
+#labp-heads-wrap {
+	background-color: #0971B2;
+}
+#labp-heads-wrap:after{
+	border-top-color: #0971B2;
+}
